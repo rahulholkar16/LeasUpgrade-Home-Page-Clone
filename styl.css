@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#container{
+    height: 100vh;
+    
+}
+
+#nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-inline: auto;
+    align-items: center;
+}
+
+#logo{
+    height: 49px;
+    width: 116px;
+    cursor: pointer;
+}
+#element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.link_1{
+    margin-right: 33px;
+    color: rgb(66, 65, 65);
+    cursor: pointer;
+}
+.link_2{
+    margin-right: 20px;
+    color: rgb(66, 65, 65);
+    cursor: pointer;
+}
+.link_1:hover{
+    color: rgb(255,102,0);
+}
+.link_2:hover{
+    color: rgb(255,102,0);
+}
+
+.button_1{
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 9px 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.button_2{
+    margin-left: 10px;
+    margin-right: 3px;
+    font-size: 16px;
+    padding: 9px 20px;
+    border: 1px solid black;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.black_button{
+    background-color: black;
+    color: white;
+}
+
+.button_2:hover{
+    background-color: black;
+    color: white;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    padding-block: 100px;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#titel {
+    font-size: 45px;
+    text-align: center;
+    width: 700px;
+    text-size-adjust: auto;
+    box-sizing: inherit;
+}
+#h4{
+    margin-top: 40px;
+}
+
+#hero_button{
+   
+    
+}
+.hero_button{
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 19px 39px;
+    border: 1px solid black;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#banner{
+    color: rgb(95, 95, 95);
+    width: 900px;
+    font-size: 20px;
+    padding-bottom: 30px;
+    animation: flash 1s infinite;
+}
+@keyframes flash{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+
+}
+.span{
+    background-color: black;
+    border-radius: 10px;
+    padding: 11px;
+}
+#number{
+    color: white;
+    margin-bottom: 10px;
+}
